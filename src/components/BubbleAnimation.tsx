@@ -1,4 +1,6 @@
 import { useEffect, useRef } from 'react';
+// Import BubbleAnimations.css
+import './../BubbleAnimations.css';
 
 interface Bubble {
   x: number;
