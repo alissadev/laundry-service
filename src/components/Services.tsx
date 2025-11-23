@@ -28,15 +28,15 @@ const services = [
 ];
 
 const colorClasses: Record<string, { bg: string; icon: string; hover: string }> = {
-  sky: { bg: 'bg-sky-50', icon: 'text-sky-600', hover: 'hover:bg-sky-100' },
-  cyan: { bg: 'bg-cyan-50', icon: 'text-cyan-600', hover: 'hover:bg-cyan-100' },
-  green: { bg: 'bg-green-50', icon: 'text-green-600', hover: 'hover:bg-green-100' },
-  purple: { bg: 'bg-purple-50', icon: 'text-purple-600', hover: 'hover:bg-purple-100' },
+  sky: { bg: 'bg-sky-200', icon: 'text-sky-600', hover: 'hover:bg-sky-400' },
+  cyan: { bg: 'bg-cyan-200', icon: 'text-cyan-600', hover: 'hover:bg-cyan-300' },
+  green: { bg: 'bg-green-200', icon: 'text-green-600', hover: 'hover:bg-green-300' },
+  purple: { bg: 'bg-purple-200', icon: 'text-purple-600', hover: 'hover:bg-purple-300' },
 };
 
 export function Services() {
   return (
-    <section id="services" className="py-20 bg-orange-200">
+    <section id="services" className="py-20 bg-purple-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-5 py-10">
         <div className="text-center mb-16">
           <h2 className="text-5xl lg:text-6xl uppercase font-bold text-gray-900 mb-4 font-custom">
@@ -53,7 +53,7 @@ export function Services() {
             return (
               <div
                 key={index}
-                className={`${colors.bg} ${colors.hover} p-8 rounded-2xl transition-all transform hover:scale-105 hover:shadow-xl`}
+                className={`${colors.bg} ${colors.hover} p-8 rounded-2xl transition-all transform shadow-xl hover:scale-105 hover:shadow-2xl`}
               >
                 <div className={`${colors.icon} mb-6`}>
                   <service.icon className="w-12 h-12" />
