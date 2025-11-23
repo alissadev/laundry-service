@@ -4,29 +4,30 @@ import '../BubbleAnimations.css'
 
 export function Hero() {
   return (
-    <section className="relative pt-24 pb-20 overflow-hidden bg-gradient-to-br from-blue-800 via-cyan-200 to-indigo-800">
+    <section className="relative pt-24 pb-20 overflow-hidden bg-gradient-to-br from-sky-400 via-cyan-200 to-indigo-800">
       <BubbleAnimation />
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid md:grid-cols-2 gap-12 items-center">
-          <div className="space-y-8">
-            <div className="inline-flex items-center space-x-2 bg-blue-100 text-blue-700 px-4 py-2 rounded-full text-sm font-medium">
-              <Sparkles className="w-4 h-4" />
-              <span>Premium Laundry Service</span>
+          <div className="space-y-8 mt-5">
+            <div className="inline-flex items-center space-x-2 bg-purple-700 text-slate-900 px-4 py-2 rounded-full text-sm font-medium">
+              <Sparkles className="w-4 h-4 font-body text-neutral-100 font-light text-sm animate-pulse space-x-4" />
+              <span className='font-body text-neutral-100 font-light text-sm'>Premium Laundry Service</span>
             </div>
 
-            <h1 className="text-5xl md:text-6xl font-bold text-gray-900 leading-tight">
+            <h1 className="text-xl md:text-6xl font-bold text-gray-900 leading-tight">
+              <span className='font-custom uppercase mb-2'>
               Fresh, Clean Laundry
-              <span className="block text-slate-600">Delivered to Your Door</span>
+              </span>
+              <span className="block text-slate-600 font-custom lowercase ml-px mt-2 animate-bounce space-x-4">Delivered to Your Door!</span>
             </h1>
 
-            <p className="text-xl text-gray-600 leading-relaxed">
-              Military Mama's professional wash, fold, and delivery service with allergen-free options.
-              Serving The Bronx and Westchester County with military-level precision.
-            </p>
+            <h2 className="text-l text-slate-800 leading-relaxed font-body">
+              Professional laundry service for all your needs.
+            </h2>
 
             <div className="flex flex-wrap gap-4">
-              <button className="bg-yellow-500 text-black px-8 py-4 rounded-full hover:bg-yellow-200 transition-all transform hover:scale-105 font-medium text-lg shadow-lg">
+              <button className="bg-amber-300 text-black px-8 py-4 rounded-full hover:bg-yellow-200 transition-all transform hover:scale-105 font-medium text-lg shadow-lg">
                 Schedule Pickup
               </button>
               <button className="bg-cyan-100 text-cyan-900 px-8 py-4 rounded-full hover:bg-cyan-400 transition-all font-medium text-lg">
@@ -60,9 +61,10 @@ export function Hero() {
           <div className="relative">
             <div className="relative z-10">
               <img
-                src="https://images.pexels.com/photos/5591581/pexels-photo-5591581.jpeg?auto=compress&cs=tinysrgb&w=800"
+                // src="folded-clothes.png"
+                src="https://images.unsplash.com/photo-1604176354204-9268737828e4?q=80&w=580&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 alt="Fresh folded laundry"
-                className="rounded-3xl shadow-2xl"
+                className="rounded-3xl shadow-2xl transition-all transform hover:scale-95"
               />
             </div>
             <div className="absolute -top-4 -right-4 w-72 h-72 bg-blue-200 rounded-full blur-3xl opacity-30"></div>
