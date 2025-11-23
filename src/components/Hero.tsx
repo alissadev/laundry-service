@@ -4,7 +4,7 @@ import '../BubbleAnimations.css'
 
 export function Hero() {
   return (
-    <section className="relative pt-24 pb-20 overflow-hidden bg-gradient-to-br from-blue-600 via-cyan-200 to-indigo-500">
+    <section className="relative pt-24 pb-20 overflow-hidden bg-gradient-to-br from-blue-800 via-cyan-200 to-indigo-800">
       <BubbleAnimation />
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -17,10 +17,10 @@ export function Hero() {
 
             <h1 className="text-5xl md:text-6xl font-bold text-gray-900 leading-tight">
               Fresh, Clean Laundry
-              <span className="block text-pink-600">Delivered to Your Door</span>
+              <span className="block text-slate-600">Delivered to Your Door</span>
             </h1>
 
-            <p className="text-6l font-bold text-slate-900 leading-relaxed">
+            <p className="text-xl text-gray-600 leading-relaxed">
               Military Mama's professional wash, fold, and delivery service with allergen-free options.
               Serving The Bronx and Westchester County with military-level precision.
             </p>
