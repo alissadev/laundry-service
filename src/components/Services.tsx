@@ -39,10 +39,10 @@ export function Services() {
     <section id="services" className="py-20 bg-purple-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-5 py-10">
         <div className="text-center mb-16">
-          <h2 className="text-5xl lg:text-6xl uppercase font-bold text-gray-900 mb-4 font-custom">
-            Our Services
+          <h2 className="text-5xl lg:text-6xl uppercase font-bold text-gray-900 mb-4 font-body">
+            Services
           </h2>
-          <p className="text-lg text-slate-800 max-w-2xl mx-auto font-body">
+          <p className="text-xl md:text-2xl text-slate-800 max-w-2xl mx-auto font-custom">
             Comprehensive laundry solutions designed to make your life easier
           </p>
         </div>

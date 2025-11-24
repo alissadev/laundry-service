@@ -30,12 +30,12 @@ export function Features() {
       <div className="absolute bottom-0 left-0 w-96 h-96 bg-green-200 rounded-full blur-3xl opacity-20"></div>
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-            Why Choose Military Mama?
+        <div className="text-center mb-16 mt-6">
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 font-body mt-5 uppercase">
+           Mama's Mission
           </h2>
-          <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            We're not just another laundry service. With military-grade precision and care, we're your partner in keeping life fresh and clean.
+          <p className="text-2xl text-gray-600 max-w-2xl mx-auto font-custom mt-6">
+            Founded by a true military mother, Military Mama is not like any other laundry service. Every order is treated with professionalism, care, and, most importantly, a touch of love. Military Mama knows that there is no better feeling than a mother's touch, so she adds it to each and every order.
           </p>
         </div>
 
