@@ -5,3 +5,8 @@
 @tailwind components;
 @tailwind utilities;
 
+#heroImg {
+    min-height: 100vh;
+    overflow: none;
+    max-width: 100%;
+}

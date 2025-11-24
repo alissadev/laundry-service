@@ -88,9 +88,9 @@ export function Features() {
             </div>
             <div className="h-full min-h-[400px]">
               <img
-                src="https://images.pexels.com/photos/6197118/pexels-photo-6197118.jpeg?auto=compress&cs=tinysrgb&w=800"
+                src="folded-clothes.png"
                 alt="Perfectly folded clothes"
-                className="w-full h-full object-cover"
+                className="w-full h-full object-cover feature-img rounded"
               />
             </div>
           </div>
