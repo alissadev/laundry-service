@@ -7,6 +7,7 @@ import { Pricing } from './components/Pricing';
 import { Contact } from './components/Contact';
 import { Footer } from './components/Footer';
 import { Reviews } from './components/UserReviews';
+import { BackToTop } from './components/BackToTop';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Reviews />
       <Contact />
       <Footer />
+      <BackToTop />
     </div>
   );
 }
