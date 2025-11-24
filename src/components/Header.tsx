@@ -9,7 +9,7 @@ export function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
           <a href="#heroImg" className="flex items-center space-x-2 hover:opacity-80 transition-opacity">
-            <img src="/logo .png" alt="Military Mama Logo" className="w-8 h-8" />
+            <img src="/logo.png" alt="Military Mama Logo" className="w-8 h-8" />
             <span className="text-2xl font-bold text-slate-900">Military Mama</span>
           </a>
 
