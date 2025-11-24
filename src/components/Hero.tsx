@@ -4,7 +4,7 @@ import '../BubbleAnimations.css'
 
 export function Hero() {
   return (
-    <section className="relative overflow-hidden bg-gradient-to-br from-cyan-200 via-sky-200 to-cyan-200 py-5" id='heroImg'>
+    <section className="relative overflow-hidden bg-gradient-to-br from-sky-100 via-white-100 to-sky-100 py-5" id='heroImg'>
       <BubbleAnimation />
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
@@ -28,13 +28,13 @@ export function Hero() {
               *Serving The Bronx & Westchester County
             </h2>
 
-            <div className="flex flex-wrap gap-4 pb-3">
-              <a href="#contact" className="bg-amber-300 text-black px-5 py-4 rounded-full hover:bg-yellow-200 transition-all transform hover:scale-105 font-medium text-sm shadow-lg">
-                Contact
+            <div className="flex flex-wrap gap-4 pb-3 font-body">
+              <a href="#services" className="bg-amber-300 text-black px-5 py-4 rounded-full hover:bg-yellow-200 transition-all transform hover:scale-105 font-medium text-sm shadow-lg">
+                Services
               </a>
-              <a href="#services" className="bg-sky-100 text-cyan-900 px-5 py-4 rounded-full hover:bg-cyan-400 transition-all font-medium text-sm">
-                Learn More
-              </a>
+              <a href="#pricing" className="bg-sky-400 text-slate-700 px-5 py-4 rounded-full hover:bg-cyan-400 transition-all font-medium text-sm">
+                Pricing
+              </a> 
             </div>
 
             <div className="grid grid-cols-2 gap-2 pt-5">
