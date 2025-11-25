@@ -4,8 +4,10 @@ export default {
   theme: {
         extend: {
           fontFamily: {
-            body: ['Poppins', 'sans-serif'],
+            body: ['Montserrat', 'sans-serif'],
+            title: ['Playfair Display', 'serif'],
             custom: ['Sofia Sans Extra Condensed', 'sans-serif'],
+            tight: ['Oswald', 'sans-serif'],
           },
         },
   },

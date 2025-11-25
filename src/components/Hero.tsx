@@ -23,7 +23,7 @@ export function Hero() {
             </h1>
 
             <h2 className="text-xl md:text-2xl font-bold text-slate-800 leading-relaxed font-custom">
-              Professional laundry service with a Mother's Touch.
+              Professional laundry service for all your needs.
                 <br />
               *Serving The Bronx & Westchester County
             </h2>
@@ -64,7 +64,7 @@ export function Hero() {
             <div className="relative z-10">
               <img
                 // src="folded-clothes.png"
-                src="https://images.pexels.com/photos/5591581/pexels-photo-5591581.jpeg?auto=compress&cs=tinysrgb&w=800"
+                src="laundry.png"
                 alt="Fresh folded laundry"
                 className="rounded-3xl hero-img shadow-2xl transition-all transform hover:scale-95"
               />

@@ -32,10 +32,10 @@ export function Features() {
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16 mt-6">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 font-body mt-5 uppercase text-sky-800">
-         Mama's Missions
+          Mission
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto font-custom mt-6">
-            Founded by a true Military wife & mother, <strong className='text-rose-400 uppercase'>Military Mama</strong> is not like any other laundry service. Every order is treated with professionalism, care, and, most importantly, a touch of love. Military Mama knows that there is no better feeling than a mother's touch, so she adds it to each and every order.
+            <strong className='text-purple-700 uppercase'>Military Mama</strong> is not like any other laundry service. Every order is treated with professionalism, care, and, most importantly, a touch of love. Military Mama knows that there is no better feeling than a mother's touch, so she adds it to each and every order.
           </p>
         </div>
 
@@ -46,8 +46,8 @@ export function Features() {
               className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow"
             >
               <div className="flex items-start space-x-4">
-                <div className="bg-blue-100 p-3 rounded-xl flex-shrink-0">
-                  <feature.icon className="w-8 h-8 text-blue-600" />
+                <div className="bg-neutral-200 p-3 rounded-xl flex-shrink-0">
+                  <feature.icon className="w-8 h-8 text-green-600" />
                 </div>
                 <div>
                   <h3 className="text-xl font-bold text-gray-900 mb-2">
