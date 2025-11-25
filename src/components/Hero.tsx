@@ -10,13 +10,8 @@ export function Hero() {
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
         <div className="grid md:grid-cols-2 gap-12 items-center my-5 mx-0">
           <div className="space-y-8">
-            <div className="inline-flex items-center space-x-2 bg-purple-700 text-slate-900 px-4 py-2 rounded-full text-xs my-3">
-              <Sparkles className="w-4 h-4 font-body text-neutral-100 font-light text-sm animate-pulse space-x-4" />
-              <span className='font-custom text-neutral-100 text-base font-semibold uppercase'>Premium Laundry Service</span>
-            </div>
-
-            <h1 className="text-4xl md:text-6xl font-bold text-gray-900 dark:text-white leading-tight text-lg21 transition-colors duration-300">
-              <span className='font-body uppercase mb-2 space-y-3'>
+            <h1 className="mt-5 text-4xl md:text-6xl font-bold text-gray-900 dark:text-white leading-tight text-lg21 transition-colors duration-300">
+              <span className='font-body uppercase mb-2 space-y-3 mt-4'>
                 Fresh, Clean Laundry
               </span>
               <span className="block text-purple-700 dark:text-indigo-400 font-bold ml-px mt-2 font-custom text-4xl uppercase transition-colors duration-300">Delivered to Your Door!</span>
