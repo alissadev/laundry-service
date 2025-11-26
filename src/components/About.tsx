@@ -23,16 +23,16 @@ const features = [
   },
 ];
 
-export function Features() {
+export function About() {
   return (
-    <section id="features" className="py-20 bg-gradient-to-br from-gray-50 to-blue-50 relative overflow-hidden">
+    <section id="about" className="py-20 bg-gradient-to-br from-gray-50 to-blue-50 relative overflow-hidden">
       <div className="absolute top-0 right-0 w-96 h-96 bg-blue-200 rounded-full blur-3xl opacity-20"></div>
       <div className="absolute bottom-0 left-0 w-96 h-96 bg-green-200 rounded-full blur-3xl opacity-20"></div>
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16 mt-6">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 font-body mt-5 uppercase text-sky-800">
-          Mission
+          About
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto font-custom mt-6">
             <strong className='text-purple-700 uppercase'>Military Mama</strong> is not like any other laundry service. Every order is treated with professionalism, care, and, most importantly, a touch of love. Military Mama knows that there is no better feeling than a mother's touch, so she adds it to each and every order.
