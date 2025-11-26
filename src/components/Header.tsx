@@ -20,16 +20,19 @@ export function Header() {
         <div className="flex justify-between items-center py-4">
           <a href="#heroImg" className="flex items-center space-x-2 hover:opacity-80 transition-opacity">
             <img src="/logo.png" alt="Military Mama Logo" className="w-8 h-8" />
-            <span className="text-2xl font-bold text-slate-900 dark:text-white">Military Mama</span>
+            <span className="text-xl font-semibold text-slate-900 dark:text-yellow-400">Military Mama Laundry</span>
           </a>
-
+          
           <nav className="hidden md:flex space-x-8">
+                        <a href="#about" className="text-slate-700 dark:text-gray-300 hover:text-sky-600 dark:hover:text-indigo-400 transition-colors font-medium text-lg">
+             About
+            </a>
             <a href="#services" className="text-slate-700 dark:text-gray-300 hover:text-sky-600 dark:hover:text-indigo-400 transition-colors font-medium text-lg">
               Services
             </a>
-            <a href="#features" className="text-slate-700 dark:text-gray-300 hover:text-sky-600 dark:hover:text-indigo-400 transition-colors font-medium text-lg">
-             Mission
-            </a>
+            <a href="#steps" className="text-slate-700 dark:text-gray-300 hover:text-sky-600 dark:hover:text-indigo-400 transition-colors font-medium text-lg">
+          Steps
+          </a>
               <a href="#pricing" className="text-slate-700 dark:text-gray-300 hover:text-sky-600 dark:hover:text-indigo-400 transition-colors font-medium text-lg">
               Pricing
             </a>
