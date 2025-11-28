@@ -84,7 +84,7 @@ export function Reviews() {
     <section id="reviews" className="py-20 bg-white">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+          <h2 className="font-body text-4xl md:text-5xl reviews-text font-bold text-gray-900 dark:text-amber-400 mb-4">
             Reviews
           </h2>
           <div className="w-20 h-1 bg-blue-600 mx-auto rounded-full"></div>

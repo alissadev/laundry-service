@@ -50,50 +50,51 @@ const plans = [
 
 export function Pricing() {
   return (
-    <section id="pricing" className="py-20 bg-amber-100">
+    <section id="pricing" className="py-20 mb-30 bg-gradient-to-br dark:from-slate-950 dark:via-sky-950 dark:to-slate-950 dark:text-white relative overflow-hidden bg-opacity-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16 mt-8">
-          <h2 className="text-3xl text-slate-800 md:text-4xl font-bold font-body text-gray-900 my-1">
-            Simple, Transparent
-          </h2>
-          <h2 className='text-4xl text-green-600 md:text-4xl font-bold font-body text-gray-900 mb-4 uppercase'>
-      PRICING</h2>
-          <p className="text-2xl text-gray-600 max-w-2xl mx-auto font-custom">
-            Choose the service that fits your needs. <strong>No hidden fees, ever.
-       </strong>   </p>
+
+      <div className="text-center mt-5">
+          <h2 className='text-2xl text-green-400 md:text-4xl text-shadow-lg font-bold font-body text-gray-900 uppercase'>
+      Prices</h2>
+          <p className="mt-4 text-xl text-sky-50 max-w-2xl mx-auto font-custom font-semibold">
+           Choose the service that fits your needs. </p>
+          <p className="mt-1 mb-5 text-xl text-stone-50 max-w-2xl mx-auto font-custom font-semibold uppercase "> Simple. Transparent, Pricing 
+              <strong className='text-amber-400 mx-2'> No hidden fees, ever.
+       </strong>   
+            </p>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-3 gap-8 px-10 pt-10">
           {plans.map((plan, index) => (
             <div
               key={index}
-              className={`relative rounded-3xl p-8 ${
+              className={`relative rounded-3xl text-start font-custom p-8 ${
                 plan.popular
-                  ? 'bg-gradient-to-br from-blue-600 to-blue-700 text-white shadow-2xl scale-105'
+                  ? 'bg-gradient-to-br from-sky-300 to-sky-400 via-sky-200 text-slate-950 shadow-2xl scale-105'
                   : 'bg-gray-50 text-gray-900'
               }`}
             >
               {plan.popular && (
                 <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
-                  <span className="bg-green-500 text-white px-4 py-1 rounded-full text-sm font-semibold">
+                  <span className="bg-green-500 text-white px-4 py-1 rounded-full text-sm font-semibold font-body">
                     Most Popular
                   </span>
                 </div>
               )}
 
               <div className="mb-6">
-                <h3 className={`text-2xl font-bold mb-2 ${plan.popular ? 'text-white' : 'text-gray-900'}`}>
+                <h3 className={`text-2xl font-bold mb-2 ${plan.popular ? 'text-slate-950' : 'text-gray-900'}`}>
                   {plan.name}
                 </h3>
-                <p className={`text-sm ${plan.popular ? 'text-blue-100' : 'text-gray-600'}`}>
+                <p className={`text-sm ${plan.popular ? 'text-violet-950 font-semibold' : 'text-gray-950'}`}>
                   {plan.description}
                 </p>
               </div>
 
               <div className="mb-6">
-                <div className="flex items-baseline">
+                <div className="flex items-baseline ">
                   <span className="text-5xl font-bold">${plan.price}</span>
-                  <span className={`ml-2 ${plan.popular ? 'text-blue-100' : 'text-gray-600'}`}>
+                  <span className={`ml-2 ${plan.popular ? 'text-blue-950' : 'text-gray-950'}`}>
                     {plan.unit}
                   </span>
                 </div>
@@ -101,9 +102,9 @@ export function Pricing() {
 
               <ul className="space-y-4 mb-8">
                 {plan.features.map((feature, featureIndex) => (
-                  <li key={featureIndex} className="flex items-start">
-                    <Check className={`w-5 h-5 mr-3 flex-shrink-0 ${plan.popular ? 'text-green-300' : 'text-green-600'}`} />
-                    <span className={plan.popular ? 'text-blue-50' : 'text-gray-700'}>
+                  <li key={featureIndex} className="flex items-start text-start text-left">
+                    <Check className={`w-5 h-5 mr-3 flex-shrink-0 ${plan.popular ? 'text-green-700' : 'text-green-600'}`} />
+                    <span className={plan.popular ? 'text-slate-950' : 'text-gray-700'}>
                       {feature}
                     </span>
                   </li>
