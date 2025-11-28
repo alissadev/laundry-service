@@ -25,64 +25,60 @@ const features = [
 
 export function About() {
   return (
-    <section id="about" className="py-20 bg-gradient-to-br from-gray-50 to-blue-50 relative overflow-hidden">
-      <div className="absolute top-0 right-0 w-96 h-96 bg-blue-200 rounded-full blur-3xl opacity-20"></div>
-      <div className="absolute bottom-0 left-0 w-96 h-96 bg-green-200 rounded-full blur-3xl opacity-20"></div>
-
-      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16 mt-6">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 font-body mt-5 uppercase text-sky-800">
-          About
+    <section id="about" className="py-20 bg-gradient-to-br from-sky-100 via-white-100 to-sky-100 dark:from-purple-800 dark:via-violet-900 dark:to-purple-800 relative overflow-hidden">
+      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 cards">
+        <div className="text-center mb-8 mt-6">
+          <h2 className="text-4xl font-bold mb-4 font-body uppercase text-purple-700 dark:text-amber-300 hover:text-purple-500 dark:hover:text-indigo-300 ">
+            About
           </h2>
-          <p className="text-xl text-gray-600 max-w-2xl mx-auto font-custom mt-6">
-            <strong className='text-purple-700 uppercase'>Military Mama</strong> is not like any other laundry service. Every order is treated with professionalism, care, and, most importantly, a touch of love. Military Mama knows that there is no better feeling than a mother's touch, so she adds it to each and every order.
+          <p className="text-xl text-slate-800 dark:text-stone-100 max-w-2xl mx-auto font-custom mt-6">
+            <strong className='text-purple-700 dark:text-amber-300 hover:text-purple-500 dark:hover:text-indigo-300 uppercase mr-1'>Military Mama </strong> is not like any other laundry service. Every order is treated with professionalism, care, and, most importantly, a touch of love. Military Mama knows that there is no better feeling than a mother's touch, so she adds it to each and every order.
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-8">
+        <div className="grid sm:grid-cols-2 gap-4 mt-0 mb-0 mr-0 ml-0 center text-center">
           {features.map((feature, index) => (
             <div
               key={index}
-              className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow"
+              className="card__bx bg-sky-100 dark:bg-purple-950 bg-opacity-65 shadow-xl rounded-full p-3 transition-shadow mb-3 text-center"
             >
-              <div className="flex items-start space-x-4">
-                <div className="bg-neutral-200 p-3 rounded-xl flex-shrink-0">
-                  <feature.icon className="w-8 h-8 text-green-600" />
+              <h3 className="text-lg uppercase font-bold text-stone-950 dark:text-stone-50 font-custom">
+                <div className='text-center my-1'>
+                  <feature.icon className="text-purple-600 dark:text-amber-300" />
                 </div>
-                <div>
-                  <h3 className="text-xl font-bold text-gray-900 mb-2">
-                    {feature.title}
-                  </h3>
-                  <p className="text-gray-600 leading-relaxed">
-                    {feature.description}
-                  </p>
-                </div>
+                {feature.title}
+              </h3>
+              <div>
+                <p className="m-3 text-stone-950 dark:text-purple-100 leading-relaxed font-body text-xs">
+                  {feature.description}
+                </p>
               </div>
             </div>
+
           ))}
         </div>
 
-        <div className="mt-16 bg-white rounded-3xl shadow-xl overflow-hidden">
-          <div className="grid md:grid-cols-2 gap-0">
-            <div className="p-12">
-              <h3 className="text-3xl font-bold text-gray-900 mb-6">
+        <div className="rounded-3xl shadow-2xl bg-sky-50 dark:bg-violet-950 bg-opacity-65 p-3" id='foldedClothes'>
+          <div className="grid md:grid-cols-2 gap-0 overflow-hidden">
+            <div className="pt-10">
+              <h3 className="text-3xl font-bold font-custom dark:text-stone-50 mb-6 ms-7">
                 The Perfect Fold, Every Time
               </h3>
-              <p className="text-gray-600 leading-relaxed mb-6">
+              <p className="dark:text-stone-100 font-semibold font-body leading-relaxed mb-6 ms-7">
                 Our team takes pride in delivering perfectly folded clothes that look like they came straight from a boutique. We use specialized folding techniques that minimize wrinkles and maximize freshness.
               </p>
-              <ul className="space-y-3">
-                <li className="flex items-center text-gray-700">
-                  <CheckCircle className="w-5 h-5 text-green-600 mr-3 flex-shrink-0" />
+              <ul className="space-y-3 font-custom ms-7">
+                <li className="flex text-stone-600 dark:text-stone-100 font-custom">
+                  <CheckCircle className="w-5 h-5 text-green-800 dark:text-green-600 mr-3 flex-shrink-0 text-right" />
                   <span>Professional folding standards</span>
                 </li>
-                <li className="flex items-center text-gray-700">
-                  <CheckCircle className="w-5 h-5 text-green-600 mr-3 flex-shrink-0" />
-                  <span>Wrinkle-free presentation</span>
+                <li className="flex text-stone-600 dark:text-stone-100">
+                  <CheckCircle className="w-5 h-5 text-green-800 dark:text-green-600 mr-3 flex-shrink-0" />
+                  <span> Wrinkle-free presentation</span>
                 </li>
-                <li className="flex items-center text-gray-700">
-                  <CheckCircle className="w-5 h-5 text-green-600 mr-3 flex-shrink-0" />
-                  <span>Organized by type and preference</span>
+                <li className="flex text-stone-600 dark:text-stone-100">
+                  <CheckCircle className="w-5 h-5 text-green-800 dark:text-green-600 mr-3 flex-shrink-0" />
+                  <span> Organized by type and preference</span>
                 </li>
               </ul>
             </div>

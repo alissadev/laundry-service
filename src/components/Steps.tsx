@@ -29,7 +29,7 @@ const steps = [
 
 export function Steps() {
   return (
-    <section className="mt-10 py-20 bg-gradient-to-br from-sky-600 to-cyan-700 text-white relative overflow-hidden" id="steps">
+    <section className="py-20 bg-gradient-to-br from-slate-950 via-sky-950 to-slate-950 text-white relative overflow-hidden" id="steps">
       <div className="absolute inset-0 opacity-10">
         <div className="absolute top-0 left-0 w-96 h-96 bg-white rounded-full blur-3xl"></div>
         <div className="absolute bottom-0 right-0 w-96 h-96 bg-white rounded-full blur-3xl"></div>
@@ -37,7 +37,7 @@ export function Steps() {
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold mb-4 font-body uppercase mt-5 mb-3">
+          <h2 className="text-4xl md:text-5xl mt-10 font-bold mb-4 font-body uppercase mt-5 mb-3">
            Our Process
           </h2>
           <p className="text-xl text-blue-100 max-w-2xl mx-auto">
@@ -51,24 +51,24 @@ export function Steps() {
               <div className="text-center">
                 <div className="relative inline-block mb-6">
                   <div className="w-20 h-20 bg-white rounded-2xl flex items-center justify-center transform rotate-6 transition-transform hover:rotate-12">
-                    <step.icon className="w-10 h-10 text-blue-600" />
+                    <step.icon className="w-10 h-10 text-purple-600" />
                   </div>
-                  <div className="absolute -top-2 -right-2 w-8 h-8 bg-green-400 rounded-full flex items-center justify-center font-bold text-gray-900 text-sm">
+                  <div className="absolute -top-2 -right-2 w-8 h-8 bg-yellow-400 rounded-full flex items-center justify-center font-bold text-gray-900 text-sm">
                     {step.step}
                   </div>
                 </div>
 
-                <h3 className="text-xl font-bold mb-3">
+                <h3 className="text-2xl font-semibold font-custom uppercase mb-3">
                   {step.title}
                 </h3>
-                <p className="text-blue-100 leading-relaxed">
+                <p className="text-sky-100 leading-relaxed font-body">
                   {step.description}
                 </p>
               </div>
 
               {index < steps.length - 1 && (
-                <div className="hidden md:block absolute top-10 left-[60%] w-[80%] h-0.5 bg-blue-400/30">
-                  <div className="absolute right-0 top-1/2 transform -translate-y-1/2 w-2 h-2 bg-blue-400 rounded-full"></div>
+                <div className="hidden md:block absolute top-10 left-[60%] w-[80%] h-0.5 bg-slate-800/50">
+                  <div className="absolute right-0 top-1/2 transform -translate-y-1/2 w-3 h-3 bg-yellow-400 rounded-full"></div>
                 </div>
               )}
             </div>
