@@ -24,11 +24,12 @@ export function Header() {
           </a>
           
           <nav className="hidden md:flex space-x-8">
-                        <a href="#about" className="text-slate-700 dark:text-gray-300 hover:text-sky-600 dark:hover:text-indigo-400 transition-colors font-medium text-lg">
-             About
-            </a>
+                     
             <a href="#services" className="text-slate-700 dark:text-gray-300 hover:text-sky-600 dark:hover:text-indigo-400 transition-colors font-medium text-lg">
               Services
+            </a>
+               <a href="#about" className="text-slate-700 dark:text-gray-300 hover:text-sky-600 dark:hover:text-indigo-400 transition-colors font-medium text-lg">
+             Mission
             </a>
               <a href="#pricing" className="text-slate-700 dark:text-gray-300 hover:text-sky-600 dark:hover:text-indigo-400 transition-colors font-medium text-lg">
               Prices
@@ -66,13 +67,7 @@ export function Header() {
         {isOpen && (
           <nav className="md:hidden pb-4 border-t border-gray-200 dark:border-navy-700">
             <div className="flex flex-col space-y-3 pt-4">
-              <a
-                href="#about"
-                onClick={closeMenu}
-                className="text-slate-700 dark:text-gray-300 hover:text-sky-600 dark:hover:text-indigo-400 transition-colors font-medium py-2"
-              >
-                About
-              </a>
+     \
                         <a
                 href="#services"
                 onClick={closeMenu}
@@ -80,7 +75,13 @@ export function Header() {
               >
                 Services
               </a>
-      
+               <a
+                href="#about"
+                onClick={closeMenu}
+                className="text-slate-700 dark:text-gray-300 hover:text-sky-600 dark:hover:text-indigo-400 transition-colors font-medium py-2"
+              >
+                Mission
+              </a>
               <a
                 href="#pricing"
                 onClick={closeMenu}

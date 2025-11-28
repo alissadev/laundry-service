@@ -16,9 +16,9 @@ function App() {
       <div className="min-h-screen bg-light dark:bg-slate-950 transition-colors duration-300">
         <Header />
         <Hero />
-        <About />
-        <Services />
         <Steps />
+        <Services />
+        <About />
         <Pricing />
         <Reviews />
         <Contact />

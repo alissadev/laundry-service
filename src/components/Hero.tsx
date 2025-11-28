@@ -8,13 +8,13 @@ export function Hero() {
       <BubbleAnimation />
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
-        <div className="grid md:grid-cols-2 gap-12 items-center my-5 mx-0">
+        <div className="grid md:grid-cols-2 gap-12 items-center mt-10 mx-0">
           <div className="space-y-8">
             <h1 className="mt-5 text-4xl md:text-6xl font-bold text-gray-900 dark:text-white leading-tight text-lg21 transition-colors duration-300">
               <span className='font-body uppercase mb-2 space-y-3 pt-6'>
                 Fresh, Clean Laundry
               </span>
-              <span className="block text-purple-700 dark:text-indigo-400 font-bold ml-px mt-2 font-custom text-4xl uppercase transition-colors duration-300">Delivered to Your Door!</span>
+              <span className="block text-purple-700 dark:text-indigo-400 font-bold ml-px mt-8 font-custom text-4xl uppercase transition-colors duration-300">Delivered to Your Door!</span>
             </h1>
 
             <h2 className="text-xl md:text-2xl font-bold text-slate-800 dark:text-gray-300 leading-relaxed font-custom transition-colors duration-300">

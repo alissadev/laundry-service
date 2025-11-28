@@ -29,22 +29,8 @@ const steps = [
 
 export function Steps() {
   return (
-    <section className="py-20 bg-gradient-to-br from-slate-950 via-sky-950 to-slate-950 text-white relative overflow-hidden" id="steps">
-      <div className="absolute inset-0 opacity-10">
-        <div className="absolute top-0 left-0 w-96 h-96 bg-white rounded-full blur-3xl"></div>
-        <div className="absolute bottom-0 right-0 w-96 h-96 bg-white rounded-full blur-3xl"></div>
-      </div>
-
-      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl mt-10 font-bold mb-4 font-body uppercase mt-5 mb-3">
-           Our Process
-          </h2>
-          <p className="text-xl text-blue-100 max-w-2xl mx-auto">
-            Getting fresh, clean laundry has never been easier
-          </p>
-        </div>
-
+    <section className="p-10 my-10 m-bg-gradient-to-br from-sky-600 via-sky-400 to-sky-600 text-white relative overflow-hidden dark:from-violet-950 dark:via-purple-950 dark:to-violet-950" id="steps">
+      <div className="flex px-2 sm:px-6 lg:px-8">
         <div className="grid md:grid-cols-4 gap-8">
           {steps.map((step, index) => (
             <div key={index} className="relative">
@@ -58,10 +44,10 @@ export function Steps() {
                   </div>
                 </div>
 
-                <h3 className="text-2xl font-semibold font-custom uppercase mb-3">
+                <h3 className="text-2xl font-semibold font-custom uppercase mb-3 text-violet-950 dark:text-amber-400">
                   {step.title}
                 </h3>
-                <p className="text-sky-100 leading-relaxed font-body">
+                <p className="text-slate-800 dark:text-sky-100 leading-relaxed font-body">
                   {step.description}
                 </p>
               </div>
