@@ -81,15 +81,14 @@ export function Reviews() {
   };
 
   return (
-    <section id="reviews" className="py-20 bg-white">
+    <section id="reviews" className="py-20">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+          <h2 className="font-body text-4xl md:text-5xl reviews-text font-bold text-gray-900 dark:text-amber-400 mb-4">
             Reviews
           </h2>
           <div className="w-20 h-1 bg-blue-600 mx-auto rounded-full"></div>
         </div>
-
         <div className="bg-gradient-to-br from-gray-50 to-blue-50 rounded-3xl p-12 shadow-lg">
           <div className="flex flex-col md:flex-row items-center gap-8">
             <div className="flex-shrink-0">
@@ -151,9 +150,8 @@ export function Reviews() {
               <button
                 key={index}
                 onClick={() => setCurrentIndex(index)}
-                className={`h-2 rounded-full transition-all ${
-                  index === currentIndex ? 'bg-blue-600 w-8' : 'bg-gray-300 w-2'
-                }`}
+                className={`h-2 rounded-full transition-all ${index === currentIndex ? 'bg-blue-600 w-8' : 'bg-gray-300 w-2'
+                  }`}
                 aria-label={`Go to review ${index + 1}`}
               />
             ))}
