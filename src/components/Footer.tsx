@@ -8,10 +8,10 @@ export function Footer() {
           <div>
             <div className="flex items-center space-x-2 mb-4">
               <Shirt className="w-8 h-8 text-blue-400" />
-              <span className="text-2xl font-bold">Military Mama</span>
+              <span className="text-2xl font-bold">Laundry Service</span>
             </div>
             <p className="text-gray-400 leading-relaxed">
-              Professional laundry service serving The Bronx and Westchester County with military-grade precision and care.
+              Professional laundry service serving The Bronx and Westchester County.
             </p>
           </div>
 

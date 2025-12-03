@@ -14,22 +14,22 @@ export function Contact() {
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="flex flex-col items-center space-y-4">
-              <a href="tel:917-312-9946" className="bg-blue-100 p-4 rounded-lg hover:bg-blue-200 transition-colors">
+              <a href="tel:555-312-9946" className="bg-blue-100 p-4 rounded-lg hover:bg-blue-200 transition-colors">
                 <Phone className="w-8 h-8 text-blue-600" />
               </a>
               <div>
                 <h3 className="font-semibold text-gray-900 mb-1">Phone</h3>
-                <p className="text-gray-600">(917) 312-9946</p>
+                <p className="text-gray-600">(555) 312-9946</p>
               </div>
             </div>
 
             <div className="flex flex-col items-center space-y-4">
-              <a href="mailto:mmcleaningsvcs@yahoo.com" className="bg-blue-100 p-4 rounded-lg hover:bg-blue-200 transition-colors">
+              <a href="mailto:youremail@google.com" className="bg-blue-100 p-4 rounded-lg hover:bg-blue-200 transition-colors">
                 <Mail className="w-8 h-8 text-blue-600" />
               </a>
               <div>
                 <h3 className="font-semibold text-gray-900 mb-1">Email</h3>
-                <p className="text-gray-600">mmcleaningsvcs@yahoo.com</p>
+                <p className="text-gray-600">youremail@google.com</p>
               </div>
             </div>
 

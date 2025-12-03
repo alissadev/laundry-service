@@ -123,7 +123,7 @@ export function Pricing() {
 
         <div className="mt-12 text-center">
           <p className="text-gray-900 font-bold font-custom text-lg">
-            Minimum order: 10 lbs • First-time customers get 20% off their first order
+            Minimum order: 20 lbs
           </p>
         </div>
       </div>
