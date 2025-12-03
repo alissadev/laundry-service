@@ -80,11 +80,17 @@ svg.lucide.lucide-phone.w-4.h-4.mr-2 {
 #services {
   max-width: 100%;
   height: auto;
-  background: linear-gradient(180deg, #120440c0, 5%, #120347ab, 50%, #020562a2), url('../public/3d-soap.jpg');
+  background: linear-gradient(180deg, #120440c0, 5%, #120347ab, 50%, #020562a2), url('../public/machines.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
+  min-height: 100vh;
+  padding-bottom: 50px;
   overflow: hidden;
+}
+
+#steps {
+  margin: 20px;
 }
 
 #pricing {
